@@ -1,5 +1,9 @@
-# List of project changes
+# Changelog
 
-## 0.1
+---
 
-* Start project
+{{ cookiecutter.version }} ({% now 'local' %})
+
+---
+
+First release of {{ cookiecutter.project_name }}.
