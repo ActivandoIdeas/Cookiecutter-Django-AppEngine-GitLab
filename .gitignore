@@ -4,9 +4,4 @@ venv/
 .cache/
 *.log
 env/
-.idea/.gitignore
-.idea/cookiecutter-django.iml
-.idea/inspectionProfiles/
-.idea/misc.xml
-.idea/modules.xml
-.idea/vcs.xml
+.idea/
