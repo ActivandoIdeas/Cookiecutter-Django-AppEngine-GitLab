@@ -23,9 +23,9 @@ Your demo project
 
 ## How to clone
 
-You can clone the repository
+You can clone this repository
 
-    clone url
+    git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
 
 ## Use on local
 To install this project just type
