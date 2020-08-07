@@ -1,4 +1,4 @@
-# Python django cookiecutter
+# Python Django GCP GitLab cookiecutter (Developing)
 
 [![Build Status](https://img.shields.io/travis/eocode/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter)](https://travis-ci.com/eocode/Cookiecutter-Django-AppEngine-GitLab.svg)
 
