@@ -5,12 +5,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.git
+.gitignore
+/setup.cfg
+.tar.gz
+google-cloud-sdk/
+.vscode/
+.idea/
+
 # C extensions
 *.so
-
-env/
-.idea/
-.vscode/
 
 # Distribution / packaging
 .Python
