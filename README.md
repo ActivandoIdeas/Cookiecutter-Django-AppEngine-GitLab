@@ -5,13 +5,13 @@
     This is a <a href="https://github.com/cookiecutter/cookiecutter" target="__blank">cookiecutter</a> template for generating a production django configuration on GCP and GitLab CI/CD.
   </p>
   <p align="center">
-    <a href="https://pyup.io/repos/github/agconti/cookiecutter-django-rest/">
+    <a href="https://github.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab/blob/master/LICENSE">
       	<img src="https://img.shields.io/badge/License-BSD3-blue.svg"  alt="license badge"/>
     </a>
-    <a href="https://travis-ci.org/agconti/cookiecutter-django-rest">
+    <a href="https://travis-ci.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?branch=master">
         <img src="https://img.shields.io/travis/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter" alt="Build Status">
     </a>
-    <a href="https://pyup.io/repos/github/agconti/cookiecutter-django-rest/">
+    <a href="https://www.python.org/">
         <img src="https://img.shields.io/pypi/pyversions/Django.svg?style=flat-square"  alt="python badge">
     </a>
   </p>
