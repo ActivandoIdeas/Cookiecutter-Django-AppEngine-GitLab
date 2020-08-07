@@ -1,6 +1,6 @@
 # Python Django GCP GitLab cookiecutter (Developing)
 
-[![Build Status](https://img.shields.io/travis/eocode/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter)](https://travis-ci.com/eocode/Cookiecutter-Django-AppEngine-GitLab.svg)
+[![Build Status](https://img.shields.io/travis/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter)](https://travis-ci.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg)
 
 This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for generating a production django configuration on GCP and GitLab CI/CD.
 
