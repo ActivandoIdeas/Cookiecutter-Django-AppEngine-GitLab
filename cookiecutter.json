@@ -2,10 +2,10 @@
   "full_name": "Hello World",
   "email": "hola@activandoideas.com",
   "github_username": "activandoideas",
-  "author_name": "{{cookiecutter.github_username}}",
+  "author_name": "{{cookiecutter.full_name}} | @{{cookiecutter.github_username}}",
   "project_name": "",
-  "version": "0.1.0",
   "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
   "description": "{{cookiecutter.project_name}}",
+  "version": "0.1.0",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
 }
