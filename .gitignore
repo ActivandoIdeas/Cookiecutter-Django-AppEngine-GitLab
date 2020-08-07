@@ -1,13 +1,9 @@
 *.pyc
-
 venv/
 .cache/
 *.log
-<<<<<<< HEAD
 .idea/
 .pytest_cache
 env
-=======
 env/
 .idea/
-.gitignore
