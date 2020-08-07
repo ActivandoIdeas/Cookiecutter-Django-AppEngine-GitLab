@@ -3,3 +3,6 @@
 venv/
 .cache/
 *.log
+.idea/
+.pytest_cache
+env
