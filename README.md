@@ -8,7 +8,7 @@
     <a href="https://github.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab/blob/master/LICENSE">
       	<img src="https://img.shields.io/badge/License-BSD3-blue.svg"  alt="license badge"/>
     </a>
-    <a href="https://travis-ci.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?branch=master">
+    <a href="https://travis-ci.org/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab">
         <img src="https://img.shields.io/travis/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter" alt="Build Status">
     </a>
     <a href="https://www.python.org/">
