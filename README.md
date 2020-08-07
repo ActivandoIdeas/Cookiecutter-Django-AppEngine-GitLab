@@ -50,6 +50,11 @@ pip install --user cookiecutter
 cookiecutter https://github.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab
 ```
 
+# License
+
+BSD 3-Clause "New" or "Revised" License
+View in https://github.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab/blob/master/LICENSE
+
 # Contributing
 
 Contributors are always welcome!
