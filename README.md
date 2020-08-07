@@ -17,13 +17,15 @@
   </p>
 </p>
 
-# Objectives
+# About this cookiecutter
 
-> * Provide a fast and simple start template to Django Projects with GCP and GitLab
+## Objectives
+
+> * Provide a fast, simple and extensible start template to Django Projects with GCP and GitLab
 > * Learn travis-ci for ci/cd on GitHub
 > * Build over cookiecutter platform
 
-# Features
+## Features
 
 - Django 3 with support for multi enviroments (Production, Staging, Development and Testing)
 - GitLab configuration for DevOps
@@ -32,6 +34,12 @@
 - Base project structure
 - GitHooks for PreCommit and PrePush
 - Extensible
+
+## Development tools
+
+- Pycharm
+- GitKraken
+- Travis
 
 # Prerequisites
 
@@ -45,6 +53,8 @@ pip install --user cookiecutter
 ```
 
 # Install
+
+Use this command
 
 ```shell
 cookiecutter https://github.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab
