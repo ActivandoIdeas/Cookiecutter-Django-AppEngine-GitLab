@@ -1,0 +1,14 @@
+[run]
+source = ./kumpel_api/,./core/
+omit =
+    */base_settings.py
+    */common_cloud_settings.py
+    */asgi.py
+    */wsgi.py
+    */__init__.py
+    */migrations/*
+    */models/*
+    */apps.py
+    */enviroments/*
+    */settings.py
+    */tests/*

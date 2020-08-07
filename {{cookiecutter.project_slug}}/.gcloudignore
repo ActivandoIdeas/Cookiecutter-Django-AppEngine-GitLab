@@ -1,0 +1,16 @@
+# This file specifies files that are *not* uploaded to Google Cloud Platform
+
+.gcloudignore
+# If you would like to upload your .git directory, .gitignore file or files
+# from your .gitignore file, remove the corresponding line
+# below:
+.git
+.gitignore
+
+# Python pycache:
+__pycache__/
+# Ignored by the build system
+/setup.cfg
+.tar.gz
+google-cloud-sdk
+.vscode
