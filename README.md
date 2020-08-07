@@ -1,8 +1,21 @@
-# Python Django GCP GitLab cookiecutter (Developing)
-
-[![Build Status](https://img.shields.io/travis/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter)](https://travis-ci.com/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg)
-
-This is a [cookiecutter](https://github.com/cookiecutter/cookiecutter) template for generating a production django configuration on GCP and GitLab CI/CD.
+<p align="center">
+  <img width="64" src="https://avatars1.githubusercontent.com/u/66532658?s=400&u=f2457dec96897c5dbc843372ec8b325589ab84d5&v=4" alt="cookiecutter-django-rest">
+  <h3 align="center">Python Django GCP GitLab cookiecutter</h3>
+  <p align="center">
+    This is a <a href="https://github.com/cookiecutter/cookiecutter" target="__blank">cookiecutter</a> template for generating a production django configuration on GCP and GitLab CI/CD.
+  </p>
+  <p align="center">
+    <a href="https://pyup.io/repos/github/agconti/cookiecutter-django-rest/">
+      	<img src="https://img.shields.io/badge/License-BSD3-blue.svg"  alt="license badge"/>
+    </a>
+    <a href="https://travis-ci.org/agconti/cookiecutter-django-rest">
+        <img src="https://img.shields.io/travis/ActivandoIdeas/Cookiecutter-Django-AppEngine-GitLab.svg?label=django-cookiecutter" alt="Build Status">
+    </a>
+    <a href="https://pyup.io/repos/github/agconti/cookiecutter-django-rest/">
+        <img src="https://img.shields.io/pypi/pyversions/Django.svg?style=flat-square"  alt="python badge">
+    </a>
+  </p>
+</p>
 
 # Objectives
 
