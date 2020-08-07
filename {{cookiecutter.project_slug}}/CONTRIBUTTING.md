@@ -60,7 +60,7 @@ Ready to contribute? Here's how to set up `personal_site` for local development.
 1. Fork the `personal_site` repo on GitHub.
 2. Clone your fork locally::
 
-    git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+`git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}`
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development::
 
