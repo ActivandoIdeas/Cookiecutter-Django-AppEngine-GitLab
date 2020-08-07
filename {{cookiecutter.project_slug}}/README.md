@@ -89,7 +89,7 @@ python manage.py migrate
 
 ## Cloud and DevSecOps Configurations
 
-[Read this to automatize your enviroment](/docs/readme.md) 
+[Read this to automatize your enviroment](/docs) 
 
 ## Preview
 
