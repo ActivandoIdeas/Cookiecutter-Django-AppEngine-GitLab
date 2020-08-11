@@ -1,0 +1,24 @@
+runtime: python37
+
+handlers:
+- url: /static
+  static_dir: core/static/
+
+- url: /.*
+  script: auto
+
+env_variables:
+  host: yourhost
+  user: yourusername
+  password: yourpassword
+  database: yourdatabasename
+  domain: yourdomain
+  key: yourkey
+  frontend: frontendurl
+  production: productionurl
+  staging: stagingurl
+  gcpbucked: gcpbucked
+  project: projectid
+  date: date
+  credentials: credentialsfile
+  passwordtest: yourpasswordtest
