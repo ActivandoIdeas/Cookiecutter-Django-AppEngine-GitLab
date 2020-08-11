@@ -1,11 +1,11 @@
 {
-  "full_name": "Hello World",
+  "full_name": "Activando Ideas",
   "email": "hola@activandoideas.com",
   "github_username": "activandoideas",
   "author_name": "{{cookiecutter.full_name}} | @{{cookiecutter.github_username}}",
-  "project_name": "",
+  "project_name": "Cookiecutter-Django-AppEngine-GitLab",
   "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
-  "project_short_description": "",
+  "project_short_description": "Django 3 template with multi enviroments supported by GCP and GitLab",
   "description": "{{cookiecutter.project_short_description}}",
   "version": "0.1.0",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]

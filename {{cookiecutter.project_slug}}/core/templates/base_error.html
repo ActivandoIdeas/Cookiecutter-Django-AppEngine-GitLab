@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% block head_content %}{% endblock %}
+
+    {% load static %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
+    <link rel="icon" type="image/png"
+          href="https://assets.gitlab-static.net/uploads/-/system/group/avatar/8416435/logo.png?width=88">
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-navbar">
+    <a class="navbar-brand" href="/">
+        <img src="https://assets.gitlab-static.net/uploads/-/system/group/avatar/8416435/logo.png?width=88"
+             width="30" height="30" class="d-inline-block align-top" alt="">
+        {{cookiecutter.project_slug}}
+    </a>
+</nav>
+
+
+<div class="container">
+    {% block container %}{% endblock%}
+</div
+</body>
+
+</html>
