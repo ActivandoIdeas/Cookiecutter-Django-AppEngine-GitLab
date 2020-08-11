@@ -31,26 +31,6 @@ def get_password_testing():
     return (data['test_variables']['password'],)
 
 
-def generate_main_context_view():
-    """Generate context variables for main page view."""
-    context = {}
-    context['productionenv'] = settings.PRODUCTION
-
-    if 'frontend' in os.environ:
-        context['frontend'] = os.environ['frontend']
-        context['production'] = os.environ['production']
-        context['staging'] = os.environ['staging']
-        context['date'] = os.environ['date']
-        context['gcpbucked'] = settings.GS_BUCKET_NAME
-    else:
-        context['frontend'] = 'https://google.com'
-        context['production'] = 'https://google.com'
-        context['staging'] = 'https://google.com'
-        context['date'] = datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')
-        context['gcpbucked'] = 'Save on local'
-    return context
-
-
 def get_domain():
     """Get allowed host."""
     return [os.environ.get('domain')]

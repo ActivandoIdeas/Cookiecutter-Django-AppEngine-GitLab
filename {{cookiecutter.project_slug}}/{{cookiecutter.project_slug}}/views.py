@@ -1,3 +1,13 @@
-from django.shortcuts import render
+"""Kumpel API Views.
 
-# Create your views here.
+Show the main page application.
+"""
+from django.http import HttpResponse
+
+
+def main_page():
+    """View for link app.
+
+    Main view app
+    """
+    return HttpResponse("Django app with Activando Ideas Template for GitLab and GCP")
