@@ -30,10 +30,11 @@ DJANGO_APPS = [
 
 THIRD_PARTY_APPS = [
     'storages',
+    'debug_toolbar',
 ]
 
 LOCAL_APPS = [
-    '{{cookiecutter.project_slug}}.apps.AppConfig',
+    '{{cookiecutter.project_slug}}',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -46,6 +47,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'core.urls'
@@ -82,6 +84,13 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator'
     },
+]
+
+# Configuration for Debug Toolbar
+INTERNAL_IPS = [
+    # ...
+    '127.0.0.1',
+    # ...
 ]
 
 # Internationalization
